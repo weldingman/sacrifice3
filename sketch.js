@@ -12,13 +12,11 @@ function setup() {
   img2 = loadImage('lips2.jpg');
   img = loadImage('cherry.png');
   beat = createAudio('RS.wav');
-  
-  // console.log(img);
-  beat.play();
 }
 
 function mousePressed() {
   userStartAudio();
+  beat.play();
   main();
 }
 
