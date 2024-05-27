@@ -7,6 +7,9 @@ let h = 200;
 let img2;
 let cherry = true;
 
+function preload(){
+  userStartAudio();
+}
 
 function setup() {
   createCanvas(400, 400);
