@@ -1,3 +1,5 @@
+//sacrifice
+
 let pos;
 let img;
 let x = 20;
