@@ -7,9 +7,9 @@ let h = 200;
 let img2;
 let cherry = true;
 
-function preload(){
-  userStartAudio();
-}
+// function preload(){
+//   userStartAudio();
+// }
 
 function setup() {
   createCanvas(400, 400);
@@ -21,9 +21,12 @@ function setup() {
   beat.play();
 }
 
-function draw() {
-  background(255);
-  
+function mousePressed() {
+  userStartAudio();
+  main();
+}
+
+function main(){
   fill(0, 0, 0);
   rect(200, 100,100,100);
   
@@ -55,8 +58,8 @@ function draw() {
     cherry = false;
     
   }
-  
-  
-  
-  
+}
+
+function draw() {
+  background(255);
 }
