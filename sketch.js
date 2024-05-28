@@ -29,7 +29,7 @@ function mousePressed() {
 
 function main(){
   fill(0, 0, 0);
-  rect(200, 100,100,100);
+  rect(200, 100, rectSize.w, rectSize.y);
   
   noFill();
   if(cherry){
