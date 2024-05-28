@@ -4,14 +4,18 @@ let pos;
 let img;
 let x = 20;
 let y = 200;
-let w = 200;
-let h = 200;
+let w = 400;
+let h = 400;
 let img2;
 let cherry = true;
 let init = false;
+let canvasSize;
+let rectSize;
 
 function setup() {
-  createCanvas(400, 400);
+  canvasSize = {w:800, h:800};
+  rectSize = {w:200, h:200};
+  createCanvas(canvasSize.w, canvasSize.h);
   img2 = loadImage('lips2.jpg');
   img = loadImage('cherry.png');
   beat = createAudio('RS.wav');
