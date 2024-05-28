@@ -8,6 +8,7 @@ let w = 200;
 let h = 200;
 let img2;
 let cherry = true;
+let init = false;
 
 function setup() {
   createCanvas(400, 400);
@@ -19,7 +20,7 @@ function setup() {
 function mousePressed() {
   userStartAudio();
   beat.play();
-  main();
+  init = true;
 }
 
 function main(){
@@ -58,4 +59,7 @@ function main(){
 
 function draw() {
   background(255);
+  if(init){
+    main();
+  }
 }
