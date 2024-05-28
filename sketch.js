@@ -52,8 +52,8 @@ function main(){
       y -= 0.4;
     }
     
-    w -= 0.2;
-    h -= 0.2;
+    w -= 0.4;
+    h -= 0.4;
   }
   else{
     cherry = false;
