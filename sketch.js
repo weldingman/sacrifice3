@@ -45,15 +45,15 @@ function main(){
   
   
   if(x <= 200){
-    x +=0.4;
+    x +=0.5;
   }
   else if(w > 0.3){
     if(y >= 130){
-      y -= 0.4;
+      y -= 0.5;
     }
     
-    w -= 0.4;
-    h -= 0.4;
+    w -= 0.5;
+    h -= 0.5;
   }
   else{
     cherry = false;
